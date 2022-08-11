@@ -1,10 +1,14 @@
 {
-  "applinks": {
-      "apps": [],
-      "details": [
-           {
-             "appIDs": [ "B78GYX2273.com.blincadvance" ],  
-           }
-       ]
-   },
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "B78GYX2273.com.blincadvance",
+                "paths": [
+                    "NOT /_/*",
+                    "/*"
+                ]
+            }
+        ]
+    }
 }
